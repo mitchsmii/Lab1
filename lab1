@@ -1,0 +1,63 @@
+using System;
+
+class Lab1
+{
+    static void Main()
+    {
+        // Declare and initialize variables of various data types
+        int integerVariable = 5;
+        float floatVariable = 3.14f;
+        string stringVariable = "Hello, World!";
+        bool booleanVariable = true;
+
+        // Arithmetic operators
+        int resultAddition = integerVariable + 10;
+        float resultMultiplication = floatVariable * 2;
+
+        // Assignment operator
+        string assignedValue = "New Value";
+
+        // Comparison operators
+        bool isEqual = (integerVariable == 5);
+        bool isNotEqual = (floatVariable != 2.0f);
+
+        // Logical operators
+        bool logicalAnd = (booleanVariable && true);
+        bool logicalOr = (booleanVariable || false);
+
+        // Bitwise operators
+        int bitwiseAnd = (integerVariable & 3);
+        int bitwiseOr = (integerVariable | 8);
+
+
+
+
+
+
+
+        // Output results of the artithmetic operators
+        Console.WriteLine("Arithmetic Operators:");
+        Console.WriteLine($"Addition Result: {resultAddition}");
+        Console.WriteLine($"Multiplication Result: {resultMultiplication}");
+
+		// Output results of the assignment operators
+        Console.WriteLine("\nAssignment Operator:");
+        Console.WriteLine($"Assigned Value: {assignedValue}");
+
+		// Output results of the comparison operators
+        Console.WriteLine("\nComparison Operators:");
+        Console.WriteLine($"Is Equal: {isEqual}");
+        Console.WriteLine($"Is Not Equal: {isNotEqual}");
+
+		// Output results of the logical operators
+        Console.WriteLine("\nLogical Operators:");
+        Console.WriteLine($"Logical AND: {logicalAnd}");
+        Console.WriteLine($"Logical OR: {logicalOr}");
+
+
+		// Output results of the Bitwise operators
+        Console.WriteLine("\nBitwise Operators:");
+        Console.WriteLine($"Bitwise AND: {bitwiseAnd}");
+        Console.WriteLine($"Bitwise OR: {bitwiseOr}");
+    }
+}
